@@ -1,0 +1,6 @@
+_______________________________________________________________
+sarsa summmary stats:
+_______________________________________________________________
+R-track.txt# epochs: 500000
+crash policy = reset after crash
+cost & average number of steps vehicle took before finish line: 500.0 steps

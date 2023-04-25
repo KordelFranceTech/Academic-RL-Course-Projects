@@ -1,0 +1,6 @@
+_______________________________________________________________
+td lambda summmary stats:
+_______________________________________________________________
+L-track.txt# epochs: 500000
+crash policy = reset after crash
+cost & average number of steps vehicle took before finish line: 360.0 steps

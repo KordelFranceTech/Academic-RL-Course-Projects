@@ -1,0 +1,31 @@
+q-learning monte carlo summary stats over track L-track.txt:
+_______________________________________________________________
+e0 = [500000, 1000000, 2000000]
+s0 = [26.0, 29.0, 52.0]
+e1 = [500000, 1000000, 2000000]
+s1 = [500.0, 500.0, 500.0]
+_______________________________________________________________
+_______________________________________________________________
+_________________________________________________________________
+Hyperparameters for q-learning Algorithm on L-track.txt
+	# epochs: 500000
+	# episodes: 500
+	gamma (discount rate): 0.8
+	nu (learning rate): 0.2
+	# of laps: 1
+	min velocity: -5
+	max velocity: 5
+	reset to initial position after crash: 0	P(acceleration misfire) = 0.19999999999999996
+
+_______________________________________________________________
+_________________________________________________________________
+Hyperparameters for q-learning Algorithm on L-track.txt
+	# epochs: 500000
+	# episodes: 500
+	gamma (discount rate): 0.8
+	nu (learning rate): 0.2
+	# of laps: 1
+	min velocity: -5
+	max velocity: 5
+	reset to initial position after crash: 1	P(acceleration misfire) = 0.19999999999999996
+
