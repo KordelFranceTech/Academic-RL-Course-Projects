@@ -1,4 +1,4 @@
-# FranceLab 5 - Kordel K. France
+# Project 5 - Kordel K. France
 
 This project was constructed for the Introduction to Machine Learning course, class 605.649 section 84 at Johns Hopkins
 University. FranceLab5 is a machine learning toolkit that implements several reinforcement learning & temporal difference
@@ -32,7 +32,7 @@ simulation. `monte_carlo.py` is the file where a Monte Carlo style simulation is
 performance of all reinforcement learning algorithms.
 
 
-## Running FranceLab5
+## Running Project 5
 1. **Ensure Python 3.7 is installed on your computer.**
 2. **Navigate to the Lab5 directory.** For example, `cd User\Documents\PythonProjects\FranceLab5`.
 Do NOT `cd` into the `Lab5` module.
@@ -40,7 +40,7 @@ Do NOT `cd` into the `Lab5` module.
 4. **Input and output files ar located in the `io_files` subdirectory.** 
 
 
-### FranceLab5 Usage
+### Project 5 Usage
 
 ```commandline
 usage: python3 -m Lab5

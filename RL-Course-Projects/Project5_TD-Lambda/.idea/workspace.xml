@@ -1,56 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py" description="ACCELERATION_MISFIRE_RATE: float = 1 - ACCELERATIO..." line="22" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab5a7473-d89e-4479-a2a9-8a36a14b8542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/eligibility_trace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1000000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1500000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2000000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch1000000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch1000000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch1500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch1500000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch2000000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch2000000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch2500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch2500000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch500000_crash0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_sarsa_epoch500000_crash1_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash0_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash0_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash0_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash1_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash1_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1000000_crash1_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash0_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash0_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash0_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash0_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash0_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash0_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash1_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash1_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2000000_crash1_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash0_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash0_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash0_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash1_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash1_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch2500000_crash1_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash0_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash0_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash0_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash1_0.0_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash1_0.2_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash1_0.4_stats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch1000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch1000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch1500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch1500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch2000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch2000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch2500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch2500000_crash1_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2500000_crash1_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_q_learn_epoch500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_sarsa_epoch1000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_sarsa_epoch500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch1000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch1000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch2000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch2000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L-track.txt_td_lambda_epoch500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Metric.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/activation_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/autoencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/autoencoder_solo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/helper_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/loss_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/neural_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/neural_net_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Neural_Network/optimizer_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/eligibility_trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/eligibility_trace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/io_files/O-track.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/io_files/R-track.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/output/q-learning_L-track.txt_monte-carlo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/classification_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/cross_validate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/discretize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/io_files/O-track.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/io_files/R-track.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/learning_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/main_legacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/monte_carlo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/monte_carlo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/regression_algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/standardize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch1000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch1000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch1500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch1500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch2000000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch2000000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch2500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch2500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch500000_crash0_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/R-track.txt_sarsa_epoch500000_crash1_stats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q-learning_L-track.txt_monte-carlo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarsa_R-track.txt_monte-carlo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td-lambda_L-track.txt_monte-carlo.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,31 +94,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/monte_carlo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="265" selection-start-line="265" selection-end-line="265" />
-              <folding>
-                <element signature="e#377#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab5/data_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="222" column="36" lean-forward="true" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+            <state relative-caret-position="-382">
+              <caret line="420" column="18" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="18" />
               <folding>
                 <element signature="e#395#414#0" expanded="true" />
               </folding>
@@ -93,54 +105,85 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/model_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_1.0_stats.txt">
+        <entry file="file://$PROJECT_DIR$/Lab5/RL/q_learning_algorithm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="532" column="22" selection-start-line="532" selection-start-column="22" selection-end-line="532" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2500000_crash1_stats.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2000000_crash1_stats.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1000000_crash1_stats.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/classification_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Lab5/model_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/monte_carlo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#377#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab5/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#345#355#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/RL/value_iteration_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7095">
-              <caret line="478" column="102" selection-start-line="478" selection-start-column="87" selection-end-line="478" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="606" column="12" selection-start-line="606" selection-start-column="12" selection-end-line="606" selection-end-column="12" />
-              <folding>
-                <element signature="e#383#426#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="690">
+              <caret line="58" column="90" selection-start-line="58" selection-start-column="90" selection-end-line="58" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -175,6 +218,7 @@
       <find>sarsa_al</find>
       <find>perform_value_iteration</find>
       <find>value_iteration_al</find>
+      <find>right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,36 +227,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab5/RL/eligibility_trace.py" />
         <option value="$PROJECT_DIR$/Lab5/config.py" />
-        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py" />
-        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py" />
-        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py" />
         <option value="$PROJECT_DIR$/Lab5/RL/q_learning_algorithm.py" />
         <option value="$PROJECT_DIR$/Lab5/RL/sarsa_algorithm.py" />
-        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py" />
-        <option value="$PROJECT_DIR$/Lab5/__main__.py" />
         <option value="$PROJECT_DIR$/Lab5/RL/value_iteration_algorithm.py" />
-        <option value="$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py" />
         <option value="$PROJECT_DIR$/Lab5/model_config.py" />
         <option value="$PROJECT_DIR$/Lab5/monte_carlo.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/eligibility_trace.py" />
+        <option value="$PROJECT_DIR$/Lab5/__main__.py" />
+        <option value="$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py" />
         <option value="$PROJECT_DIR$/Lab5/data_processing.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Project5_TD-Lambda.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
     <option name="y" value="25" />
-    <option name="width" value="1637" />
+    <option name="width" value="1457" />
     <option name="height" value="1095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -233,19 +269,6 @@
               <item name="Project5_TD-Lambda" type="462c0819:PsiDirectoryNode" />
               <item name="Lab5" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project5_TD-Lambda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project5_TD-Lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project5_TD-Lambda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project5_TD-Lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -254,6 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -345,18 +369,19 @@
       <workItem from="1682045823150" duration="12000" />
       <workItem from="1682054596457" duration="25718000" />
       <workItem from="1682376141144" duration="121000" />
-      <workItem from="1682381214885" duration="11096000" />
+      <workItem from="1682381214885" duration="14617000" />
+      <workItem from="1682723169205" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54906000" />
+    <option name="totallyTimeSpent" value="58807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1637" height="1095" extended-state="0" />
+    <frame x="13" y="25" width="1457" height="1095" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23448277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26996467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,7 +400,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4244514" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.42413163" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -394,8 +419,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project5_TD_Lambda$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1682414539679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab5" />
-    <SUITE FILE_PATH="coverage/Project5_TD_Lambda$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1682418729716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab5" />
+    <SUITE FILE_PATH="coverage/Project5_TD_Lambda$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1682419496186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab5" />
+    <SUITE FILE_PATH="coverage/Project5_TD_Lambda$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1682889936750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab5/io_files/L-track.txt">
@@ -405,37 +430,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/eligibility_trace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L-track.txt_sarsa_epoch50_crashTrue_stats.txt" />
     <entry file="file://$PROJECT_DIR$/L-track.txt_sarsa_epoch5_crashTrue_stats.txt" />
-    <entry file="file://$PROJECT_DIR$/Lab5/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L-track.txt_sarsa_epoch1000000_crashTrue_stats.txt" />
     <entry file="file://$PROJECT_DIR$/L-track.txt_sarsa_epoch500000_crashTrue_stats.txt" />
     <entry file="file://$PROJECT_DIR$/L-track.txt_sarsa_epoch2000000_crashTrue_stats.txt" />
-    <entry file="file://$PROJECT_DIR$/Lab5/regression_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch500000_crash0_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/q-learning_L-track.txt_monte-carlo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/regression_algorithm.py" />
+    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch500000_crash0_stats.txt" />
     <entry file="file://$PROJECT_DIR$/Lab5/RL/io_files/L-track.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -443,69 +444,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash1_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash0_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash0_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash1_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1000000_crash1_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash0_stats.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash0_stats.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch2000000_crash1_stats.txt" />
     <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1000000_crash0_stats.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2000000_crash0_stats.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2000000_crash1_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/q_learning_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="579" column="23" selection-start-line="579" selection-start-column="23" selection-end-line="579" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/RL/sarsa_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8295">
           <caret line="558" column="38" selection-start-line="558" selection-start-column="38" selection-end-line="558" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -516,69 +467,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py">
+    <entry file="file://$PROJECT_DIR$/Lab5/classification_algorithm.py" />
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash0_0.8_stats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_1.0_stats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch500000_crash0_stats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_sarsa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/classification_algorithm.py">
+    <entry file="file://$PROJECT_DIR$/Lab5/L-track.txt_td_lambda_epoch1000000_crash1_stats.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_q_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/graph.py" />
+    <entry file="file://$PROJECT_DIR$/Lab5/helpers.py" />
+    <entry file="file://$PROJECT_DIR$/Lab5/Metric.py" />
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/q-learning_L-track.txt_monte-carlo.txt" />
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_td_lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/eligibility_trace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/RL/td_lambda_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="606" column="12" selection-start-line="606" selection-start-column="12" selection-end-line="606" selection-end-column="12" />
-          <folding>
-            <element signature="e#383#426#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="8760">
+          <caret line="591" column="16" selection-start-line="591" selection-start-column="16" selection-end-line="591" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#345#355#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="58" column="90" selection-start-line="58" selection-start-column="90" selection-end-line="58" selection-end-column="90" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch500000_crash0_0.8_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/model_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_td_lambda_epoch1500000_crash1_1.0_stats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/monte_carlo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#377#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch500000_crash0_stats.txt">
+    <entry file="file://$PROJECT_DIR$/Lab5/model_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/demo_config_value_iteration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2500000_crash0_stats.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/q_learning_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="532" column="22" selection-start-line="532" selection-start-column="22" selection-end-line="532" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch1000000_crash1_stats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2500000_crash1_stats.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RL/output/L-track.txt_q_learn_epoch2000000_crash1_stats.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5/data_processing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="222" column="36" lean-forward="true" selection-start-line="222" selection-start-column="36" selection-end-line="222" selection-end-column="36" />
+        <state relative-caret-position="-382">
+          <caret line="420" column="18" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="18" />
           <folding>
             <element signature="e#395#414#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

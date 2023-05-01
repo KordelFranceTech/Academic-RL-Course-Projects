@@ -11,7 +11,9 @@ import os
 import shutil
 import time
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.signal import savgol_filter, lfilter
+from scipy.ndimage.filters import gaussian_filter1d
 from Lab5 import config
 
 
@@ -210,7 +212,7 @@ def cast_column_to_float(dataframe: pd.DataFrame):
     return dataframe.reset_index(drop=True)
 
 
-def build_monte_carlo_results(subdir_name: str):
+def build_monte_carlo_results(subdir_name: str, r:bool):
     dir_path = os.listdir(subdir_name)
     q_learn_0: dict = {"x":[], "y":[]}
     q_learn_1: dict = {"x":[], "y":[]}
@@ -229,6 +231,7 @@ def build_monte_carlo_results(subdir_name: str):
     td_08_1: dict = {"x":[], "y":[]}
     td_10_1: dict = {"x":[], "y":[]}
     # iterate over all files in the directories and change the name of each one
+
     for item in dir_path:
         if 'crash' in item:
             prename = str(item)
@@ -245,7 +248,11 @@ def build_monte_carlo_results(subdir_name: str):
             with open(f"./RL/output/{item}") as f:
                 lines = f.readlines()
                 # print(lines)
-                steps += float(lines[-1].split(":")[-1].split(" steps")[0])
+                if r:
+                    steps -= float(lines[-1].split(":")[-1].split(" steps")[0])
+                else:
+                    steps += float(lines[-1].split(":")[-1].split(" steps")[0])
+
                 # print(steps)
             if "q_learn" in item:
                 if crash_type == 0:
@@ -313,12 +320,16 @@ def build_monte_carlo_results(subdir_name: str):
         ax_sort = sorted(zip(x, y), reverse=False)
         y = [i[0] for i in ax_sort]
         x = [i[1] for i in ax_sort]
+
         if filter:
             # y = savgol_filter(y, 3, 2)
-            n = 30000  # larger n gives smoother curves
-            b = [1.0 / n] * n  # numerator coefficients
-            a = 1  # denominator coefficient
+            n = 30000           # larger n gives smoother curves
+            b = [1.0 / n] * n   # numerator coefficients
+            a = 1               # denominator coefficient
             y = lfilter(b, a, y)
+        if not r:
+            x = (x - np.min(x)) / (np.max(x) - np.min(x))
+        x = gaussian_filter1d(x, sigma=2)
         return x, y
 
     q_learn_0["y"], q_learn_0["x"] = sort_xy(q_learn_0["x"], q_learn_0["y"])
@@ -348,8 +359,15 @@ def build_monte_carlo_results(subdir_name: str):
          'td lambda=0.6',
          'td lambda=0.8',
          'td lambda=1.0'],
-        loc='upper right')
-    plt.title("Number of Steps for Crash Type A")
+        loc='lower right')
+    if r:
+        plt.title("Average Reward for Crash Type A")
+        plt.xlabel("# Episodes")
+        plt.ylabel("Average Reward")
+    else:
+        plt.title("Average # Steps for Crash Type A")
+        plt.xlabel("# Episodes")
+        plt.ylabel("Average Steps")
     plt.show()
 
     q_learn_1["y"], q_learn_1["x"] = sort_xy(q_learn_1["x"], q_learn_1["y"])
@@ -380,9 +398,82 @@ def build_monte_carlo_results(subdir_name: str):
          'td lambda=0.8',
          'td lambda=1.0'],
         loc='lower left')
-    plt.title("Number of Steps for Crash Type B")
+    if r:
+        plt.title("Average Reward for Crash Type B")
+        plt.xlabel("# Episodes")
+        plt.ylabel("Average Reward")
+    else:
+        plt.title("Average # Steps for Crash Type B")
+        plt.xlabel("# Episodes")
+        plt.ylabel("Average Steps")
     plt.show()
 
+    # Crash type A/B comparison
+    q_learn_0["y"], q_learn_0["x"] = sort_xy(q_learn_0["x"], q_learn_0["y"])
+    q_learn_1["y"], q_learn_1["x"] = sort_xy(q_learn_1["x"], q_learn_1["y"])
+    plt.plot(q_learn_0["x"], q_learn_0["y"], linestyle='dotted')
+    plt.plot(q_learn_1["x"], q_learn_1["y"])
+    plt.legend(
+        [
+         'crash type A',
+         'crash type B'
+        ],
+        loc='upper left')
+    plt.title("Q-Learning Comparison of Average Reward for Crash Type")
+    plt.xlabel("# Episodes")
+    plt.ylabel("Average Reward")
+    plt.show()
 
-build_monte_carlo_results("./RL/output")
+    sarsa_0["y"], sarsa_0["x"] = sort_xy(sarsa_0["x"], sarsa_0["y"])
+    sarsa_1["y"], sarsa_1["x"] = sort_xy(sarsa_1["x"], sarsa_1["y"])
+    plt.plot(sarsa_0["x"], sarsa_0["y"], linestyle='dotted')
+    plt.plot(sarsa_1["x"], sarsa_1["y"])
+    plt.legend(
+        [
+         'crash type A',
+         'crash type B'
+        ],
+        loc='upper left')
+    plt.title("SARSA Comparison of Average Reward for Crash Type")
+    plt.xlabel("# Episodes")
+    plt.ylabel("Average Reward")
+    plt.show()
+
+    td_00_0["y"], td_00_0["x"] = sort_xy(td_00_0["x"], td_00_0["y"])
+    td_00_1["y"], td_00_1["x"] = sort_xy(td_00_1["x"], td_00_1["y"])
+    plt.plot(td_00_0["x"], td_00_0["y"], linestyle='dotted')
+    plt.plot(td_02_0["x"], td_02_0["y"], linestyle='dotted')
+    plt.plot(td_04_0["x"], td_04_0["y"], linestyle='dotted')
+    plt.plot(td_06_0["x"], td_06_0["y"], linestyle='dotted')
+    plt.plot(td_08_0["x"], td_08_0["y"], linestyle='dotted')
+    plt.plot(td_10_0["x"], td_10_0["y"], linestyle='dotted')
+    plt.plot(td_00_1["x"], td_00_1["y"])
+    plt.plot(td_02_1["x"], td_02_1["y"])
+    plt.plot(td_04_1["x"], td_04_1["y"])
+    plt.plot(td_06_1["x"], td_06_1["y"])
+    plt.plot(td_08_1["x"], td_08_1["y"])
+    plt.plot(td_10_1["x"], td_10_1["y"])
+    plt.legend(
+        [
+         'lambda=0.0, crash type A',
+         'lambda=0.2, crash type A',
+         'lambda=0.4, crash type A',
+         'lambda=0.6, crash type A',
+         'lambda=0.8, crash type A',
+         'lambda=1.0, crash type A',
+         'lambda=0.0, crash type B',
+         'lambda=0.2, crash type B',
+         'lambda=0.4, crash type B',
+         'lambda=0.6, crash type B',
+         'lambda=0.8, crash type B',
+         'lambda=1.0, crash type B',
+        ],
+        loc='lower left')
+    plt.title("TD-Lambda Comparison of Average Reward for Crash Type")
+    plt.xlabel("# Episodes")
+    plt.ylabel("Average Reward")
+    plt.show()
+
+if __name__ == "__main__":
+    build_monte_carlo_results("./RL/output", r=True)
 

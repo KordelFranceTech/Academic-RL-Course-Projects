@@ -1,6 +1,0 @@
-_______________________________________________________________
-sarsa summmary stats:
-_______________________________________________________________
-L-track.txt# epochs: 1000000
-crash policy = continue exploring after crash
-cost & average number of steps vehicle took before finish line: 42.333333333333336 steps

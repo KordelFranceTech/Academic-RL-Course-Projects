@@ -7,11 +7,8 @@
 
 
 from Lab5 import data_processing
-from Lab5 import encoding
 from Lab5 import config
 from Lab5 import model_config
-from Lab5.cross_validate import construct_data_folds, get_datasets_for_fold
-from Lab5 import standardize
 from Lab5.Model import Model
 from Lab5.RL import q_learning_algorithm
 from Lab5.RL import td_lambda_algorithm
@@ -26,11 +23,6 @@ from Lab5.RL import demo_config_td_lambda
 from Lab5.RL import demo_config_value_iteration
 from Lab5.RL import demo_config_sarsa
 
-
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-import random
 
 
 def initialize_rl_agent(algorithm) -> Model:

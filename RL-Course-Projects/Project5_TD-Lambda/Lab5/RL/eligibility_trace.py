@@ -12,7 +12,6 @@ class EligibilityTrace:
 
     def decay(self, states: list, action: int):
         state = self.q_values[states[0]][states[1]][states[2]][states[3]]
-        # self.q_values[state][action] = self.q_values[state][action]
         does_have_state_action_val: bool = state in self.q_values and action in self.q_values[state]
         if does_have_state_action_val:
             if state in self.q_values:
@@ -24,14 +23,6 @@ class EligibilityTrace:
                     self.q_values[state][action] = new_val
 
     def increment(self, states: list, action: int, set_value: int = 1):
-        print(self.q_values)
-        print(states)
-        print(action)
-        # state = self.q_values[states[0]][states[1]][states[2]][states[3]]
-        # if state not in self.q_values:
-        #     self.q_values[state] = {}
-        # self.q_values[state][action] = set_value
-        print(self.q_values[states[0]][states[1]][states[2]][states[3]][action])
         self.q_values[states[0]][states[1]][states[2]][states[3]][action] += set_value
 
     def get(self, states: list, action: int):

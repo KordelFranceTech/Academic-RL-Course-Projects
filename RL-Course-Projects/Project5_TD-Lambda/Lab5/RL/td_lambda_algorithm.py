@@ -1,10 +1,10 @@
 # td_lambda_algorithm.py
 # Kordel France
 ########################################################################################################################
-# This file establishes the specification for the Q-learning algorithm for reinforcement learning.
+# This file establishes the specification for the TD Lambda algorithm for reinforcement learning.
 ########################################################################################################################
 
-from random import shuffle, random, randint
+from random import shuffle, random
 import numpy as np
 import os
 import time

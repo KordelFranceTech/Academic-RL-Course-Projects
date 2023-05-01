@@ -1,6 +1,0 @@
-_______________________________________________________________
-q-learn summmary stats:
-_______________________________________________________________
-L-track.txt# epochs: 2500000
-crash policy = reset after crash
-cost & average number of steps vehicle took before finish line: 213.0 steps
